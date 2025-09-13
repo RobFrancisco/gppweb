@@ -1,6 +1,4 @@
 import Navbar from "./Navbar"
-import Image from "next/image"
-import Footer from "./Footer"
 import Hero from "./Hero"
 import Content from "./Content"
 import Blog from "./Blog"
@@ -27,6 +25,7 @@ export default function Home() {
       <Content />
       <Blog />
       <Contact />
+      
     </div>
     
   );
