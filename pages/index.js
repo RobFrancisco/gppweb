@@ -1,4 +1,3 @@
-import Navbar from "./Navbar"
 import Hero from "./Hero"
 import Content from "./Content"
 import Blog from "./Blog"
@@ -20,7 +19,6 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Hero />
       <Content />
       <Blog />
