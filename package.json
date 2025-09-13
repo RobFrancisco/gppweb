@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check-case": "node check-import-case.js"
   },
   "dependencies": {
     "next": "15.5.2",
@@ -20,6 +21,7 @@
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
+    "glob": "^11.0.3",
     "tailwindcss": "^4"
   }
 }

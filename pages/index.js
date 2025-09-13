@@ -1,8 +1,8 @@
-import Hero from "./Hero"
-import Content from "./Content"
-import Blog from "./Blog"
-import Contact from "./Contact"
-  
+import Hero from './Hero'
+import Content from './Content'
+import Blog from './Blog'
+import Contact from './Contact'
+
 
 import { Geist, Geist_Mono } from "next/font/google";
 
