@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image"
 import Link from "next/link"
 
-const navbar = () => {
+const index = () => {
   return (
     <header class="text-gray-600 body-font">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -24,4 +24,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default index

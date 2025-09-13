@@ -2,6 +2,7 @@ import Hero from "./Hero"
 import Content from "./Content"
 import Blog from "./Blog"
 import Contact from "./Contact"
+  
 
 import { Geist, Geist_Mono } from "next/font/google";
 
@@ -19,6 +20,7 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <div>
+      
       <Hero />
       <Content />
       <Blog />
