@@ -7,7 +7,7 @@ const index = () => {
     <header class="text-gray-600 body-font">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <Image
-      src="/gpp2logo.jpg"
+      src="/assets/logo/gpp2logo.jpg"
       width={150}
       height={100}
       alt="Picture of the logo"
