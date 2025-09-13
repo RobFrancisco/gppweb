@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+
 
 function index() {
   return (
@@ -11,7 +13,7 @@ function index() {
       <p class="mb-8 leading-relaxed">Trusted By: Clients / Celebrities / Vlogger <br/> Legit Gadget Supplier 🇵🇭 Lowest Price w/ Free Raffle </p>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="Assets/GppStore.jpg"/>
+      <Image class="object-cover object-center rounded" alt="hero" width={800} height={500} src="/assets/GppStore.jpg"/>
     </div>
   </div>
 </section>

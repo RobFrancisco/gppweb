@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function index() {
   return (
@@ -8,7 +9,7 @@ function index() {
       <div class="p-12 md:w-1/2 flex flex-col items-start">
         <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">CATEGORY</span>
         <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Roof party normcore before they sold out, cornhole vape</h2>
-        <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably haven't heard of them hexagon kickstarter craft beer pork chic.</p>
+        <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90s, slow-carb etsy tumeric. Cray pug you probably haven't heard of them hexagon kickstarter craft beer pork chic.</p>
         <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
           <a class="text-indigo-500 inline-flex items-center">Learn More
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -29,7 +30,7 @@ function index() {
           </span>
         </div>
         <a class="inline-flex items-center">
-          <img alt="blog" src="https://dummyimage.com/104x104" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
+          <Image alt="blog" width={300} height={100} src="/assets/logo/gpp2logo.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
           <span class="flex-grow flex flex-col pl-4">
             <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
             <span class="text-gray-400 text-xs tracking-widest mt-0.5">UI DEVELOPER</span>
@@ -39,7 +40,7 @@ function index() {
       <div class="p-12 md:w-1/2 flex flex-col items-start">
         <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">CATEGORY</span>
         <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Pinterest DIY dreamcatcher gentrify single-origin coffee</h2>
-        <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
+        <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90s, slow-carb etsy tumeric.</p>
         <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
           <a class="text-indigo-500 inline-flex items-center">Learn More
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -60,7 +61,7 @@ function index() {
           </span>
         </div>
         <a class="inline-flex items-center">
-          <img alt="blog" src="https://dummyimage.com/103x103" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
+          <Image alt="blog" width={103} height={103} src="/assets/logo/gpp2logo.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
           <span class="flex-grow flex flex-col pl-4">
             <span class="title-font font-medium text-gray-900">Alper Kamu</span>
             <span class="text-gray-400 text-xs tracking-widest mt-0.5">DESIGNER</span>
