@@ -9,7 +9,7 @@ function index() {
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Apple iPhone. Take your pick.</h1>
         <div class="h-1 w-20 bg-indigo-500 rounded"></div>
       </div>
-      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably havent heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
     </div>
     <div class="flex flex-wrap -m-4">
       <div class="xl:w-1/4 md:w-1/2 p-4">
