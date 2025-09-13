@@ -1,7 +1,12 @@
 import Image from "next/image"
-import Navbar from "./navbar"
+import Navbar from "./Navbar"
 import Footer from "./Footer"
+import Hero from "./Hero"
+import Content from "./Content"
+import Blog from "./Blog"
+import Contact from "./Contact"
 import { Geist, Geist_Mono } from "next/font/google";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,7 +21,11 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <div>
-      <h1>Milan</h1>
+      <Hero />
+      <Content />
+      <Blog />
+      <Contact />
     </div>
+    
   );
 }
